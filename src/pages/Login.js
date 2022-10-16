@@ -34,11 +34,11 @@ class login extends Component {
         <form className="form" onSubmit={this.handleSubmit}>
           <div className="input-group">
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" placeholder="nome@email.com.br" />
+            <input type="email" name="email" placeholder="ENTER THE EMAIL ID" />
           </div>
           <div className="input-group">
             <label htmlFor="password">Password</label>
-            <input type="password" name="password" />
+            <input type="password" name="password"  placeholder="ENTER THE PASSWORD"/>
           </div>
           <button className="primary">SUBMIT</button>
         </form>
